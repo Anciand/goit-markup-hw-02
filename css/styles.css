@@ -1,0 +1,158 @@
+/* Main fonts: Roboto - 400(normal text), 700 - headings; 900 - h1; 500 - names in team part
+Raleway 700 - logo */
+/* Main colors:
+header:
+background:  #FFFFFF; logo: #2196F3 + #212121; nav - #212121 + hover/focus - #2196F3; contacts - #757575 + hover/focus - #2196F3;
+hero section: background - #2F303A; h1 - #FFFFFF; button - #2196F3 + text #FFFFFF;
+features section: h3 - #212121; text - #757575;
+works section: h2 - #212121;
+team section: background -  #F5F4FA; h2 - #212121; h3 - #212121; text - #757575; 
+footer: background - #2F303A; logo: #2196F3 + #000000; address text - #FFFFFF; contacts - #757575;
+ */
+
+/* css vars for colors */
+
+:root {
+  --background: #ffffff;
+  --bacground-sub: #2f303a;
+  --background-sub2: #f5f4fa;
+  --brand-color: #2196f3;
+  --title-text: #212121;
+  --com-text-color: #757575;
+}
+/* fonts for page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background);
+}
+
+/* header styles */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-part {
+  color: var(--brand-color);
+}
+.logo:visited {
+  color: var(--title-text);
+}
+/* nav block */
+.for-list {
+  list-style: none;
+}
+.nav-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--brand-color);
+}
+.current {
+  color: var(--brand-color);
+}
+/* contacts */
+
+.contacts-item {
+  text-decoration: none;
+  color: var(--com-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--brand-color);
+}
+
+/* Main block */
+/* hero section */
+.hero-section {
+  background-color: var(--bacground-sub);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background);
+}
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  background-color: var(--brand-color);
+  color: var(--background);
+}
+.order-button:hover,
+.order-button:focus {
+  color: var(--brand-color);
+  background-color: var(--background);
+}
+
+/* features section */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text);
+}
+.sub-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text);
+}
+
+.text-describe {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--com-text-color);
+}
+
+/* team section */
+.team-section {
+  background-color: var(--background-sub2);
+}
+
+/* footer */
+.page-footer {
+  background-color: var(--bacground-sub);
+}
+.location {
+  text-decoration: none;
+  color: var(--background);
+}
+.location:hover,
+.location:focus {
+  color: var(--brand-color);
+}
+.footer-spec:visited {
+  color: var(--background);
+}
+.address-style {
+  font-style: normal;
+}
