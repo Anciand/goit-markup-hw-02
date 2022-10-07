@@ -51,7 +51,6 @@ body {
 .nav-item {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--title-text);
@@ -69,7 +68,6 @@ body {
   text-decoration: none;
   color: var(--com-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
@@ -139,7 +137,6 @@ body {
 }
 
 .text-describe {
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--com-text-color);
