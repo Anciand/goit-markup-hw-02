@@ -11,7 +11,6 @@ footer: background - #2F303A; logo: #2196F3 + #000000; address text - #FFFFFF; c
  */
 
 /* css vars for colors */
-
 :root {
   --background: #ffffff;
   --bacground-sub: #2f303a;
