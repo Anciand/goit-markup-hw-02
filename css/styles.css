@@ -149,7 +149,9 @@ body {
 .team-section {
   background-color: var(--background-sub2);
 }
-
+.proj-lst-links {
+  text-decoration: none;
+}
 /* footer */
 .page-footer {
   background-color: var(--bacground-sub);
