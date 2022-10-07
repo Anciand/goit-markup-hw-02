@@ -23,12 +23,13 @@ footer: background - #2F303A; logo: #2196F3 + #000000; address text - #FFFFFF; c
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background);
+  color: var(--title-text);
+  letter-spacing: 0.03em;
 }
 
 /* header styles */
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.15;
@@ -99,6 +100,11 @@ body {
   font-family: inherit;
   background-color: var(--brand-color);
   color: var(--background);
+  cursor: pointer;
+}
+.portfolio-btns {
+  color: var(--title-text);
+  background-color: var(--com-text-color);
 }
 .order-button:hover,
 .order-button:focus {
@@ -125,7 +131,6 @@ body {
 }
 
 .text-describe {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
