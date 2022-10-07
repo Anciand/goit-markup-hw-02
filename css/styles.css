@@ -18,13 +18,15 @@ footer: background - #2F303A; logo: #2196F3 + #000000; address text - #FFFFFF; c
   --brand-color: #2196f3;
   --title-text: #212121;
   --com-text-color: #757575;
+  --btns-sub-color: #f5f4fa;
 }
 /* fonts for page */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background);
-  color: var(--title-text);
+  color: var(--com-text-color);
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 /* header styles */
@@ -104,12 +106,18 @@ body {
 }
 .portfolio-btns {
   color: var(--title-text);
-  background-color: var(--com-text-color);
+  background-color: var(--btns-sub-color);
 }
 .order-button:hover,
 .order-button:focus {
   color: var(--brand-color);
   background-color: var(--background);
+}
+
+.portfolio-btns:hover,
+.portfolio-btns:focus {
+  color: var(--background);
+  background-color: var(--brand-color);
 }
 
 /* features section */
